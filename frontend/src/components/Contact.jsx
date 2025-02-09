@@ -12,8 +12,8 @@ const Contact = () => {
     e.preventDefault();
     await axios
       .post(
-        // "https://mern-donationapp-1.onrender.com/api/v1/message/send",
-        "http://localhost:4000/api/v1/message/send",
+        "https://campuscushion-1.onrender.com/api/v1/message/send",
+        // "http://localhost:4000/api/v1/message/send",
         { name, email, phone, message },
         {
           withCredentials: true,
