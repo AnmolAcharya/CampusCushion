@@ -12,7 +12,7 @@ const Contact = () => {
     e.preventDefault();
     await axios
       .post(
-        "https://campuscushion-3.onrender.com/api/v1/message/send",
+        "https://campuscushion-4.onrender.com/api/v1/message/send",
         // "http://localhost:4000/api/v1/message/send",
         { name, email, phone, message },
         {
