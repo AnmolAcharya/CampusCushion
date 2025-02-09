@@ -1,6 +1,6 @@
 import app from "./index.js";
-import dotenv from "dotenv";
-dotenv.config();
+// import dotenv from "dotenv";
+// dotenv.config();
 
 
 // app.listen(4000, () => {
